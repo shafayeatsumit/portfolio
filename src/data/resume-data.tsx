@@ -20,259 +20,229 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Shafayeat Kabir",
+  initials: "SKS",
+  location: "Dhaka, Bangladesh",
+  locationLink: "https://www.google.com/maps/place/Dhaka",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Full Stack Engineer, specializing in both frontend and backend realms of mobile app development",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with React Native, React, Python, Strapi, Node.js, and GraphQL. I have over 6 years of experience in working remotely with companies all around the world.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/9054649?v=4",
+  personalWebsiteUrl: "https://google.com",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "sumithired@gmail.com",
+    tel: "+8801673344545",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/shafayeatsumit",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/shafayeat/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/ShafayeatSumit",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Daffodil International University",
+      degree: "Bachelor's Degree in Software Engineering",
+      start: "2012",
+      end: "2016",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      company: "HostiFi",
+      link: "https://www.hostifi.com/",
+      badges: ["Remote", "Contract"],
+      title: "Mobile Application Developer",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      start: "Dec, 2023",
+      end: "Present",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Developed a React Native and Expo-based mobile app facilitating Ubiquiti Networking device discovery, enabling network engineers to remotely monitor and manage UniFi Network devices",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      company: "PayNest",
+      link: "https://www.paynest.co/",
+      badges: ["Remote", "Contract"],
+      title: "Mobile Application Developer",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      start: "Aug, 2022",
+      end: "Jun, 2023",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "Developed and deployed Paynest's mobile app for both platforms IOS and Android using React-Native. Technologies: React Native, React, Expo, TypeScript, GraphQL",
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
+      company: "3 Thoughts Healthier LLC",
+      badges: ["Remote"],
+      title: "Full-stack Developer",
       logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      start: "Mar, 2020",
+      end: "Dec, 2021",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "Crafted numerous mobile applications focusing on meditation, guided meditation, and breathing exercises, all centered around mental health, leveraging React Native and Strapi/Node.js for backend, complemented with native modules developed in Swift, Objective-C, and Java as a fullstack engineer.",
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
+      company: "Vome Inc",
+      link: "https://www.vomevolunteer.com/",
+      badges: ["Remote", "Contract"],
+      title: "Front-End Developer",
       logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      start: "Nov, 2019",
+      end: "Mar, 2020",
+      description:
+        "Led VOME's iOS & Android app creation in React Native, directed app development, made UX/UI/feature decisions, collaborated with backend devs, handled all aspects of development: UI, animations, architecture, networking, deployment, & beta testing.",
+    },
+    {
+      company: "Skyligt",
+      link: "https://www.skylightframe.com/",
+      badges: ["Remote", "Freelance"],
+      title: "Front-End Developer",
+      logo: NSNLogo,
+      start: "Apr, 2019",
+      end: "Oct, 2019",
+      description:
+        "As a key contributor, I played a pivotal role in the development of the Skylight mobile app, particularly focusing on photo and video editing, propelling the early-stage startup to over 200,000 downloads on both the App Store and Play Store. Skylight has since evolved into a thriving consumer electronics company, boasting a 2021 revenue of $75 million.",
+    },
+    {
+      company: "Finder LBS",
+      link: "https://finder-lbs.com/",
+      badges: ["Onsite"],
+      title: "Full-stack Developer",
+      logo: NSNLogo,
+      start: "Apr, 2016",
+      end: "Nov, 2018",
+      description:
+        "Maintained legacy code while helping with the transition process to new systems, including massive data migration. Assisted engineers across the company (primarily from Web/Python backgrounds) in implementing Mobile app features on a tight deadline.Drove architecture decisions such as using React Native for a mobile (iOS/Android) React/Redux web app, Python back end. Technologies: Python, MongoDB, React Native, React",
     },
   ],
   skills: [
+    "React Native/React",
+    "Python",
+    "Swift",
+    "Objective-C",
+    "Java",
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
+    "Strapi/Node.js",
     "GraphQL",
-    "Relay",
-    "WebRTC",
   ],
   projects: [
     {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
+      title: "HostiFi Device Discovery Tool",
+      techStack: ["React Native", "Expo", "React Navigation"],
+      description:
+        "find any Ubiquiti devices on your local network, either in the UISP or UniFi family and then be able to adopt them to a UniFi controller by simply providing the inform URL.",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "hostifi-discovery-tool.com",
+        href: "https://www.hostifi.com/hostifi-device-discovery-tool",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
+      title: "React Native Rich Vibration",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Side Project",
+        "Open Source",
+        "NPM package",
+        "React Native",
+        "Swift",
+        "Kotlin",
       ],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
+        "This React Native library provides an alternative to the standard vibrations API",
+      logo: MonitoLogo,
+      link: {
+        label: "RN Rich Vibration",
+        href: "https://github.com/openingbracket/react-native-rich-vibration",
+      },
+    },
+    {
+      title: "Paynest Mobile",
+      techStack: ["React Native", "Redux", "App Center"],
+      description:
+        "Paynest Mobile app not only empowers employees by granting them early access to their wages but also facilitates connections with financial advisors, enriching their financial well-being.",
+      logo: JarockiMeLogo,
+      link: {
+        label: "paynest",
+        href: "https://www.paynest.co/",
+      },
+    },
+    {
+      title: "Skylight Mobile",
+      techStack: ["React Native", "Expo", "Redux"],
+      description:
+        "Skylight App: Manage your Frame or Calendar with ease, featuring video playback, album organization, text captions, downloads, remote settings, and seamless Frame management.",
+      logo: Minimal,
+      link: {
+        label: "Skylight App",
+        href: "https://apps.apple.com/us/app/skylight-app/id1438779037",
+      },
+    },
+    {
+      title: "Vome",
+      techStack: ["ReactJS", "React Native", "Redux", "Expo"],
+      description:
+        "The all-in-one volunteer management solution. Register for opportunities, reserve spots to shifts, complete challenges and so much more on the Vome app!",
+      logo: BarepapersLogo,
+      link: {
+        label: "vomevolunteer.com",
+        href: "https://www.vomevolunteer.com/",
+      },
+    },
+    {
+      title: "wiseshopper",
+      techStack: ["Open Source", "Python", "Scrapy", "Django"],
+      description:
+        "WiseShopper is an autonomous price comparison platform catering to Bangladesh, aiding users in discovering the optimal deals from the primary secondhand marketplaces in the country.",
+      logo: YearProgressLogo,
+      link: {
+        label: "wiseshopper",
+        href: "https://github.com/shafayeatsumit/wiseshopper",
+      },
+    },
+    {
+      title: "MultiSig Wallet",
+      techStack: ["Open Source", "Web3", "React", "Solidity"],
+      description:
+        "A minimal clone of gnosis-safe with. The purpose of multisig wallets is to increase security by requiring multiple parties to agree on transactions before execution. Transactions can be executed only when confirmed by a predefined number of owners",
       logo: ParabolLogo,
       link: {
         label: "github.com",
-        href: "https://parabol.co/",
+        href: "https://github.com/shafayeatsumit/rugged-multisig",
       },
     },
     {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "Momenta",
+      techStack: ["Open Source", "React Native", "Objective-C", "Java"],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
+        "Momenta is a mobile application designed to provide users with a tranquil and serene space to unwind, relax, and practice mindfulness meditation",
       logo: EvercastLogo,
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "Momenta",
+        href: "https://github.com/shafayeatsumit/Momenta",
       },
     },
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "The Fit League",
+      techStack: ["Open Source", "React Native", "Redux"],
       description:
-        "Android application for leading virtual mobile operator in Poland",
+        "TFL applies the format of fantasy sports to personal exercise. Form a league with your friends and compete over a 10-week season.",
       logo: MobileVikingsLogo,
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+        label: "The Fit League",
+        href: "https://github.com/shafayeatsumit/The-Fit-League-App",
       },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
