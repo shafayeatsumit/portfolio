@@ -29,7 +29,7 @@ export const RESUME_DATA = {
   summary:
     "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with React Native, React, Python, Strapi, Node.js, and GraphQL. I have over 6 years of experience in working remotely with companies all around the world.",
   avatarUrl: "https://avatars.githubusercontent.com/u/9054649?v=4",
-  personalWebsiteUrl: "https://google.com",
+  personalWebsiteUrl: "https://shafayeat.com",
   contact: {
     email: "sumithired@gmail.com",
     tel: "+8801673344545",
@@ -201,7 +201,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "wiseshopper",
+      title: "Wise Shopper",
       techStack: ["Open Source", "Python", "Scrapy", "Django"],
       description:
         "WiseShopper is an autonomous price comparison platform catering to Bangladesh, aiding users in discovering the optimal deals from the primary secondhand marketplaces in the country.",
