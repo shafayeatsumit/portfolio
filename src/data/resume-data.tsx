@@ -104,9 +104,9 @@ export const RESUME_DATA = {
         "Led VOME's iOS & Android app creation in React Native, directed app development, made UX/UI/feature decisions, collaborated with backend devs, handled all aspects of development: UI, animations, architecture, networking, deployment, & beta testing.",
     },
     {
-      company: "Skyligt",
+      company: "Skylight",
       link: "https://www.skylightframe.com/",
-      badges: ["Remote", "Freelance"],
+      badges: ["Remote", "Contract"],
       title: "Front-End Developer",
       logo: NSNLogo,
       start: "Apr, 2019",
@@ -132,9 +132,9 @@ export const RESUME_DATA = {
     "Swift",
     "Objective-C",
     "Java",
-    "JavaScript",
     "TypeScript",
-    "Strapi/Node.js",
+    "Node.js",
+    "Strapi",
     "GraphQL",
   ],
   projects: [
